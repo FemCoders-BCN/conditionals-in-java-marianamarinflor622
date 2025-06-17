@@ -44,7 +44,7 @@
                 System.out.println("\td. Astronauta y científica de la ESA");
                 System.out.print("Tu respuesta: ");
                 char r3 = scanner.next().toLowerCase().charAt(0);
-                if (r3 == 'b') puntaje += 5;
+                if (r3 == 'b'|| r3 == 'd') puntaje += 5;
         
                
                 System.out.println("\n4. ¿Cómo se llamaban las principales 'mujeres ocultas' de la NASA?");
